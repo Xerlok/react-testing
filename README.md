@@ -1,29 +1,8 @@
-# template
-A basic template with webpack
+# React + Vite
 
-Package JSON:
-  npm init -y
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Webpack installation:
-  npm install webpack webpack-cli --save-dev
-  npm install --save-dev style-loader css-loader
+Currently, two official plugins are available:
 
-EsLint installation:
-  npm init @eslint/config
-
-Jest installation:
-  npm install --save-dev jest
-
-Babel with Jest installation:
-  npm install --save-dev babel-jest @babel/core @babel/preset-env
-  npm install --save-dev babel-loader
-
-Package JSON Scripts:
-  "build": "webpack",
-  "watch": "webpack --watch",
-  "preview": "git subtree push --prefix dist origin gh-pages",
-  "test": "jest"
-
-React + Vite:
-  npm create vite@latest . -- --template react
-  
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
